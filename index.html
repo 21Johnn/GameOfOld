@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/style.css">
+    <title>GAME OF VELHA</title>
+</head>
+<body>
+    <h1>JOGO DA VELHA</h1>
+    <div id="button--container">
+        <button id="2--players">2 JOGADORES </button>
+        <button id="ai--player">CONTRA IA</button>
+    </div>
+
+    <div id="container" class="hide">
+        <div class="box" id="block--1"></div>
+        <div class="box" id="block--2"></div>
+        <div class="box" id="block--3"></div>
+        <div class="box" id="block--4"></div>
+        <div class="box" id="block--5"></div>
+        <div class="box" id="block--6"></div>
+        <div class="box" id="block--7"></div>
+        <div class="box" id="block--8"></div>
+        <div class="box" id="block--9"></div>
+
+        <div id="score">
+            <h2>PLACAR:</h2>
+            <span class="score">
+                <span id="x--score">X</span>: 
+                <span id="score--1">0</span>
+            </span>
+            <span class="score">
+                <span id="o--score"></span>: 
+                <span id="score--2">0</span>
+            </span>
+        </div>
+    </div>
+
+    <div class="hide">
+        <div class="x">X</div>
+        <div class="o"></div>
+    </div>
+
+    <div id="message" class="hide">
+        <p>a</p>
+    </div>
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
